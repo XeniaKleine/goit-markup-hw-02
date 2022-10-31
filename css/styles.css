@@ -100,5 +100,140 @@ body {
     color: #2196F3;
 }
 
- hover rgba(33, 150, 243, 1)
+ .hero {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button:hover {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.feature {
+
+}
+
+.feature-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.feature-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #757575;
+}
+
+.examples {
+
+}
+
+.examples-list {
+
+}
+
+.examples-title {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.team {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.team-list {
+   
+}
+
+.team-item {
+   
+}
+
+.team-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #757575;
+}
+
+.team-person {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.6;
+}
 
