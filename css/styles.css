@@ -10,7 +10,9 @@ body {
 .header-nav {
 
 }
-
+:root {
+    --brand-color: #2196F3;
+}
 .header-logo-web {
     font-family: 'Roboto';
     font-weight: 700;
@@ -18,7 +20,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--brand-color);
 
 }
 .header-logo-stu {
@@ -53,7 +55,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .header-phone {
@@ -73,7 +75,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .header-list-item {
@@ -97,7 +99,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
  .hero {
@@ -237,3 +239,32 @@ button:hover {
     opacity: 0.6;
 }
 
+.project {
+
+}
+
+.project-list {
+
+}
+
+.project-item {
+
+}
+
+.project-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-name {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
