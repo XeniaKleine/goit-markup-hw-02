@@ -1,8 +1,10 @@
-/*
+
 .body {
-    
+    color: #212121;
+    font-family: 'Roboto', normal;
 }
 
+/*
 .header {
 
 }
@@ -27,7 +29,7 @@
 }
 
 .header-logo-web {
-    font-family: 'Roboto';
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -37,7 +39,7 @@
 }
 
 .header-logo-stu {
-    font-family: 'Roboto';
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -49,7 +51,6 @@
 
 .header-mail {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -59,7 +60,6 @@
 
 .header-mail:hover {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -69,7 +69,6 @@
 
 .header-phone {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -78,8 +77,6 @@
 }
 
 .header-phone:hover {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -89,7 +86,6 @@
 
 .header-nav-link {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -99,7 +95,6 @@
 
 .header-nav-link:hover {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -109,19 +104,18 @@
 
  .hero {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     color: #ffffff;
+    text-transform: uppercase;
  }
 
  .section-hero {
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
-    margin:
  }
 
 button {
@@ -132,6 +126,7 @@ button {
     letter-spacing: 0.06em;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 button:hover {
@@ -151,12 +146,10 @@ button:hover {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
 }
 
 .feature-item {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -172,7 +165,6 @@ button:hover {
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
 }
 
 .team {
@@ -183,12 +175,10 @@ button:hover {
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
 }
 
 .team-title {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -199,20 +189,16 @@ button:hover {
 
 .team-person {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
 }
 
 .address {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -221,15 +207,24 @@ button:hover {
 
 .contacts {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #ffffff;
     opacity: 0.6;
 }
+
+.contacts:hover {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #212121;
+    opacity: 0.6;
+}
+
 /*
 
 .examples {
@@ -266,12 +261,10 @@ button:hover {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 
 .project-name {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
