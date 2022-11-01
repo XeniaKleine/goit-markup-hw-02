@@ -1,7 +1,7 @@
-body {
+/*
+.body {
     
 }
-
 
 .header {
 
@@ -10,9 +10,22 @@ body {
 .header-nav {
 
 }
+
+.header-list {
+
+}
+.header-list-item {
+    
+}
+.feature {
+
+}
+*/
+
 :root {
     --brand-color: #2196F3;
 }
+
 .header-logo-web {
     font-family: 'Roboto';
     font-weight: 700;
@@ -21,8 +34,8 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--brand-color);
-
 }
+
 .header-logo-stu {
     font-family: 'Roboto';
     font-weight: 700;
@@ -31,10 +44,6 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #000000;
-
-}
-
-.header-list {
 
 }
 
@@ -78,10 +87,6 @@ body {
     color: var(--brand-color);
 }
 
-.header-list-item {
-    
-}
-
 .header-nav-link {
     font-family: 'Roboto';
     font-weight: 400;
@@ -108,8 +113,15 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-decoration: none;
+    text-align: center;
     color: #ffffff;
+ }
+
+ .section-hero {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    margin:
  }
 
 button {
@@ -132,10 +144,6 @@ button:hover {
     color: #2196F3;
 }
 
-.feature {
-
-}
-
 .feature-title {
     font-family: 'Roboto';
     font-weight: 700;
@@ -154,14 +162,6 @@ button:hover {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #757575;
-}
-
-.examples {
-
-}
-
-.examples-list {
-
 }
 
 .examples-title {
@@ -184,14 +184,6 @@ button:hover {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #212121;
-}
-
-.team-list {
-   
-}
-
-.team-item {
-   
 }
 
 .team-title {
@@ -238,6 +230,22 @@ button:hover {
     color: #ffffff;
     opacity: 0.6;
 }
+/*
+
+.examples {
+
+}
+
+.examples-list {
+
+}
+.team-list {
+   
+}
+
+.team-item {
+   
+}
 
 .project {
 
@@ -250,6 +258,7 @@ button:hover {
 .project-item {
 
 }
+*/ 
 
 .project-title {
     font-family: 'Roboto';
