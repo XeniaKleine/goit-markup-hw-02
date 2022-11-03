@@ -1,7 +1,10 @@
 
 .body {
-    color: #212121;
-    font-family: 'Roboto', normal;
+    color: var(--body-color);
+    font-family: 'Roboto', sans-seerif;
+    font-size: 16px; 
+    letter-spacing:0.03em; 
+    color: var(--item-color); 
 }
 
 /*
@@ -13,12 +16,6 @@
 
 }
 
-.header-list {
-
-}
-.header-list-item {
-    
-}
 .feature {
 
 }
@@ -26,6 +23,11 @@
 
 :root {
     --brand-color: #2196F3;
+    --text-color: #000000;
+    --hero-color: #ffffff;
+    --section-color: #2F303A;
+    --body-color: #212121;
+    --item-color: #757575;
 }
 
 .header-logo-web {
@@ -45,43 +47,29 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #000000;
-
+    color: var(--text-color);
 }
 
-.header-mail {
-    font-family: 'Roboto';
+.header-contacts { 
     font-size: 14px;
     line-height: 1.2;
+    font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #000000;
+    color: var(--text-color);
 }
 
-.header-mail:hover {
-    font-family: 'Roboto';
+.header-contacts:hover {
     font-size: 14px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--brand-color);
-}
-
-.header-phone {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #000000;
-}
-
-.header-phone:hover {
-    font-size: 14px;
-    line-height: 1.2;
+    font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--brand-color);
+}
+
+.header-list {
+    list-style: none;
 }
 
 .header-nav-link {
@@ -90,7 +78,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: rgb(33, 33, 33, 1);
+    color: var(--text-color);
 }
 
 .header-nav-link:hover {
@@ -103,49 +91,73 @@
 }
 
  .hero {
-    font-family: 'Roboto';
     font-size: 44px;
     line-height: 1.36;
+    font-weight: 900;
     letter-spacing: 0.06em;
     text-align: center;
-    color: #ffffff;
+    color: var(--hero-color);
     text-transform: uppercase;
  }
 
  .section-hero {
-    background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
+    background-color: var(--section-color);
  }
 
-button {
+ .button-hero {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--hero-color);
     cursor: pointer;
 }
 
-button:hover {
+.button-hero:hover {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--section-color);
 }
 
-.feature-title {
+.button-projects {
     font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
     letter-spacing: 0.03em;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.button-projects:hover {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--hero-color);
+}
+
+.title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.feature-list {
+    list-style: none;
 }
 
 .feature-item {
@@ -154,17 +166,11 @@ button:hover {
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #757575;
+    color: var(--item-color)
 }
 
-.examples-title {
-    font-family: 'Roboto';
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+.examples-list { 
+    list-style: none;
 }
 
 .team {
@@ -177,18 +183,17 @@ button:hover {
     text-decoration: none;
 }
 
+.team-list {
+    list-style: none;
+}
 .team-title {
-    font-family: 'Roboto';
-    font-size: 16px;
     line-height: 1.2;
+    font-weight: 400;
     text-align: center;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #757575;
+    color: var(--item-color);
 }
 
 .team-person {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -196,13 +201,17 @@ button:hover {
     text-decoration: none;
 }
 
+.footer {
+    background-color: var(--section-color);
+}
 .address {
     font-family: 'Roboto';
+    font-style: normal; 
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--hero-color);
 }
 
 .contacts {
@@ -211,20 +220,43 @@ button:hover {
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--hero-color);
     opacity: 0.6;
 }
 
-.contacts:hover {
+.contacts:hover, .contacts:focus {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #212121;
+    color: var(--brand-color);
     opacity: 0.6;
 }
 
+.footer-contacts {
+    list-style: none;
+}
+
+.footer-logo-web {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+.footer-logo-stu {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--hero-color);
+}
 /*
 
 .examples {
@@ -255,12 +287,21 @@ button:hover {
 }
 */ 
 
+.projects-list {
+    list-style: none;
+}
+
+.list-items {
+    list-style: none;
+}
+
 .project-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
 }
 
 .project-name {
@@ -268,5 +309,5 @@ button:hover {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--item-color);
 }
