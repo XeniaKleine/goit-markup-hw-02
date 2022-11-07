@@ -28,6 +28,7 @@
     --section-color: #2F303A;
     --body-color: #212121;
     --item-color: #757575;
+    --hover-color: #188CE8; 
 }
 
 .header-logo-web {
@@ -56,7 +57,7 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--body-color)
 }
 
 .header-contacts:hover {
@@ -65,7 +66,7 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--brand-color);
+    color: var(--body-color);
 }
 
 .header-list {
@@ -117,13 +118,13 @@
 }
 
 .button-hero:hover {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    text-decoration: none;
-    color: var(--section-color);
+    color: var(--hero-color);
+    background: var(--section-color);
+}
+
+.button-hero:focus {
+    color: var(--hero-color);
+    background: var(--section-color);
 }
 
 .button-projects {
@@ -134,16 +135,16 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     cursor: pointer;
+    color: var(--hero-color);
 }
 
 .button-projects:hover {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    cursor: pointer;
+    background: var(--brand-color);
+    color: var(--hero-color);
+}
+
+.button-projects:focus {
+    background: var(--brand-color);
     color: var(--hero-color);
 }
 
@@ -155,6 +156,7 @@
     letter-spacing: 0.03em;
     text-align: center;
     text-decoration: none;
+    color: var(--body-color);
 }
 
 .feature-list {
@@ -164,6 +166,7 @@
 .feature-title {
     font-weight: 700;
     line-height: 1.2;
+    font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--body-color);
     text-transform: uppercase;
@@ -175,7 +178,7 @@
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--item-color)
+    color: var(--item-color);
 }
 
 .examples-list { 
@@ -208,6 +211,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: var(--body-color);
 }
 
 .footer {
@@ -234,13 +238,7 @@
 }
 
 .contacts:hover, .contacts:focus {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--brand-color);
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .footer-contacts {
@@ -310,6 +308,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--body-color);
 
 }
 
