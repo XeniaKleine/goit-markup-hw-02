@@ -29,6 +29,7 @@
     --body-color: #212121;
     --item-color: #757575;
     --hover-color: #188CE8; 
+    --button-color: #F5F4FA;
 }
 
 .header-logo-web {
@@ -57,16 +58,16 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--body-color)
+    color: var(--item-color)
 }
 
-.header-contacts:hover {
+.header-contacts:hover, .header-contacts:focus {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--body-color);
+    color: var(--brand-color);
 }
 
 .header-list {
@@ -118,13 +119,11 @@
 }
 
 .button-hero:hover {
-    color: var(--hero-color);
-    background: var(--section-color);
+    background: var(--hover-color);
 }
 
 .button-hero:focus {
-    color: var(--hero-color);
-    background: var(--section-color);
+    background: var(--hover-color);
 }
 
 .button-projects {
@@ -135,7 +134,8 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     cursor: pointer;
-    color: var(--hero-color);
+    background: var(--button-color);
+    color: var(--body-color);
 }
 
 .button-projects:hover {
