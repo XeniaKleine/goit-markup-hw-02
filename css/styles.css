@@ -116,6 +116,8 @@
     color: var(--hero-color);
     cursor: pointer;
     background-color: var(--brand-color);
+    display: inline-block;
+    margin: 100px;
 }
 
 .button-hero:hover {
